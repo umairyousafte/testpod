@@ -1,6 +1,6 @@
 # testpod
 
-[![CI Status](https://img.shields.io/travis/umairyousadte/testpod.svg?style=flat)](https://travis-ci.org/umairyousadte/testpod)
+[![CI Status](https://img.shields.io/travis/umairyousafte/testpod.svg?style=flat)](https://travis-ci.org/umairyousafte/testpod)
 [![Version](https://img.shields.io/cocoapods/v/testpod.svg?style=flat)](https://cocoapods.org/pods/testpod)
 [![License](https://img.shields.io/cocoapods/l/testpod.svg?style=flat)](https://cocoapods.org/pods/testpod)
 [![Platform](https://img.shields.io/cocoapods/p/testpod.svg?style=flat)](https://cocoapods.org/pods/testpod)
@@ -22,7 +22,7 @@ pod 'testpod'
 
 ## Author
 
-umairyousadte, umair.y@theentertainerasia.com
+umairyousafte, umair.y@theentertainerasia.com
 
 ## License
 

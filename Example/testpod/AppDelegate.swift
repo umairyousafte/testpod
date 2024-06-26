@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  testpod
 //
-//  Created by umairyousadte on 06/26/2024.
-//  Copyright (c) 2024 umairyousadte. All rights reserved.
+//  Created by umairyousafte on 06/26/2024.
+//  Copyright (c) 2024 umairyousafte. All rights reserved.
 //
 
 import UIKit

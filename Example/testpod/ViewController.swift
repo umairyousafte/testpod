@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import testpod
+import testpody
 
 class ViewController: UIViewController {
 

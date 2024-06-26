@@ -41,7 +41,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7509754477357D1C0A70006D /* Pods_testpod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testpod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C403C7600A6EF10D44171C /* Pods_testpod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testpod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80AC95A215B4C17DC09EFEFC /* testpod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testpod.podspec; path = ../testpod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		80AC95A215B4C17DC09EFEFC /* testpody.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testpody.podspec; path = ../testpody.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F5280DE1212FD951CAC7E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		93B23081E5898328BBB3E194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9641495FFDCFB750AF28B0D0 /* Pods-testpod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testpod_Example.debug.xcconfig"; path = "Target Support Files/Pods-testpod_Example/Pods-testpod_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				80AC95A215B4C17DC09EFEFC /* testpod.podspec */,
+				80AC95A215B4C17DC09EFEFC /* testpody.podspec */,
 				8F5280DE1212FD951CAC7E6B /* README.md */,
 				93B23081E5898328BBB3E194 /* LICENSE */,
 			);
@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				CCEF49B34C9E43728C264685 /* [CP] Embed Pods Frameworks */,
+				142D5614D7AF40388D891A7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,18 +262,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CCEF49B34C9E43728C264685 /* [CP] Embed Pods Frameworks */ = {
+		142D5614D7AF40388D891A7C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-testpod_Example/Pods-testpod_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/testpod/testpod.framework",
+				"${BUILT_PRODUCTS_DIR}/testpody/testpody.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testpod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testpody.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

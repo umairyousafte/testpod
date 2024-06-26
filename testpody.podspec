@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'testpod'
-  s.version          = '0.1.0'
+  s.name             = 'testpody'
+  s.version          = '0.1.1'
   s.summary          = 'test pod used to test integration'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
 
-  s.source_files = 'testpod/Classes/**/*'
+  s.source_files = 'testpody/Classes/**/*'
   
   # s.resource_bundles = {
   #   'testpod' => ['testpod/Assets/*.png']

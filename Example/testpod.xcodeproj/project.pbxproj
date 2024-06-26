@@ -41,9 +41,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7509754477357D1C0A70006D /* Pods_testpod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testpod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C403C7600A6EF10D44171C /* Pods_testpod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testpod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80AC95A215B4C17DC09EFEFC /* testpod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testpod.podspec; path = ../testpod.podspec; sourceTree = "<group>"; };
-		8F5280DE1212FD951CAC7E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		93B23081E5898328BBB3E194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80AC95A215B4C17DC09EFEFC /* testpod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testpod.podspec; path = ../testpod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F5280DE1212FD951CAC7E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		93B23081E5898328BBB3E194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9641495FFDCFB750AF28B0D0 /* Pods-testpod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testpod_Example.debug.xcconfig"; path = "Target Support Files/Pods-testpod_Example/Pods-testpod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C733A6D750DE8BF5497DED05 /* Pods-testpod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testpod_Example.release.xcconfig"; path = "Target Support Files/Pods-testpod_Example/Pods-testpod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5E6BEC792737FC4890A5939 /* Pods-testpod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testpod_Tests.release.xcconfig"; path = "Target Support Files/Pods-testpod_Tests/Pods-testpod_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				0E5161B454464627F8D9E90F /* Pods-testpod_Tests.debug.xcconfig */,
 				D5E6BEC792737FC4890A5939 /* Pods-testpod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

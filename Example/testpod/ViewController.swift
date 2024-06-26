@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import testpod
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblVersion: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        lblVersion.text = UYController.getPodVersion().description
     }
 
     override func didReceiveMemoryWarning() {
